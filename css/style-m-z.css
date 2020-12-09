@@ -1,0 +1,115 @@
+.conteudo{
+  margin: 0;
+  max-width: 800px;
+  background:  rgb(199, 155, 75);
+}
+
+
+.titulo-principal h1{
+  color: rgb(94, 28, 138);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 44px;
+  
+  padding-top: 20px;
+  
+}
+
+.titulo-principal h2 {
+  color: white;
+  text-align: center;
+  text-transform: inherit;
+  font-size: 36px;
+  padding-top: 30px;
+}
+
+.outra-pasta{
+  
+  width: 100px;
+  margin-left: 5px;
+  padding-top: 0.1px;
+  border-radius: 5%;
+  text-align: center;
+  
+}
+.outra-pasta p {
+  font-size: 12px;
+  margin: 10px 5px;
+  padding: 10px 5px;
+  color: whitesmoke;
+  background: rgb(94, 28, 138);
+  font-weight: bold;
+  
+}
+
+.outra-pasta p:hover{
+  color:rgb(94, 28, 138);
+  background: whitesmoke;
+  box-shadow: rgb(85, 243, 230) 1px 1px 10px;
+}
+.outra-pasta a{
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.pastas ul li{
+  display: inline-block;
+  width:100px;
+  height: 100px;
+  
+  margin: 10px;
+  border-radius: 50%;
+  background: rgb(94, 28, 138);
+  
+}
+
+ul li a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: cursive;
+  width: 100%;
+  height: 100%;
+  padding-top: 35px;
+}
+
+ul li a:hover{
+  width:100px;
+  height: 65px;
+  background: white;
+  color:rgb(94, 28, 138) ;
+  border-radius: 50%;
+  box-shadow: rgb(85, 243, 230) 1px 1px 50px;
+}
+
+
+
+.primeiro-lista,.topo-lista,.meio-lista,.baixo-lista{
+ 
+  display: inline-block;
+  
+  
+}
+
+.primeiro-lista ul li{
+  margin-top: 20px;
+  margin-left: 180px;
+  margin-bottom: 70px;
+}
+
+.topo-lista ul li,.meio-lista ul li, .baixo-lista ul li{
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 70px;
+}
+
+
+
+
+
